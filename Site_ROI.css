@@ -1,0 +1,90 @@
+* {
+  margin: 0%;
+}
+
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: red;
+}
+
+/* section barre de navigation  */
+
+a {
+  color: black;
+  text-decoration: none;
+}
+nav {
+  background-color: blanchedalmond;
+}
+.navbarre {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+  width: 96%;
+  margin: auto;
+}
+
+#Bienvenue {
+  height: 400px;
+  background-image: url("image/KOUSH ROYAUME.webp");
+  background-size: cover;
+}
+
+/* Section photo */
+
+h1 {
+  text-align: center;
+}
+/* section sommaire */
+
+.sommaire {
+  width: 60%;
+  margin-left: 45px;
+}
+
+/* section formulaire */
+
+.form {
+  margin: auto;
+  width: 30%;
+}
+input {
+  height: 20px;
+  width: 450px;
+}
+button {
+  width: 100px;
+  height: 30px;
+  margin-left: 350px;
+}
+
+/* section tableau */
+
+.recentrer_tableau {
+  width: 35%;
+  margin: auto;
+
+  font-size: 26px;
+}
+
+table,
+th,
+td {
+  border: solid;
+}
+/* Section 3 images */
+.LesRois {
+  margin: auto;
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+}
+img {
+  border-radius: 20px;
+}
+
+h3 {
+  text-align: center;
+}
